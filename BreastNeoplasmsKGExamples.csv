@@ -1,0 +1,17 @@
+﻿Child_cui,Child_name,Parent_cui,Parent_name
+ROOT_D,Diseases Category,ROOT_A,All MeSH Categories
+D009369,Neoplasms,ROOT_D,Diseases Category
+D017437,Skin and Connective Tissue Diseases,ROOT_D,Diseases Category
+D009370,Neoplasms by Site,D009369,Neoplasms
+D001943,Breast Neoplasms,D009370,Neoplasms by Site
+D012871,Skin Diseases,D017437,Skin and Connective Tissue Diseases
+D001947,Breast Diseases,D012871,Skin Diseases
+D001943,Breast Neoplasms,D001947,Breast Diseases
+D001940,Breast Carcinoma In Situ,D001943,Breast Neoplasms
+D001944,"Breast Neoplasms, Male",D001940,Breast Carcinoma In Situ
+D002282,"Carcinoma, Ductal, Breast",D001944,"Breast Neoplasms, Male"
+D002284,"Carcinoma, Lobular",D002282,"Carcinoma, Ductal, Breast"
+D000258,Hereditary Breast and Ovarian Cancer Syndrome,D002284,"Carcinoma, Lobular"
+D055750,Inflammatory Breast Neoplasms,D000258,Hereditary Breast and Ovarian Cancer Syndrome
+D066227,Triple Negative Breast Neoplasms,D055750,Inflammatory Breast Neoplasms
+D063696,Unilateral Breast Neoplasms,D066227,Triple Negative Breast Neoplasms
